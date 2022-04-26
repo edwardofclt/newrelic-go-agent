@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 // Package nrsqlite3 instruments https://github.com/mattn/go-sqlite3.
@@ -23,7 +24,7 @@
 // Then change the side-effect import to this package, and open "nrsqlite3" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrsqlite3"
+//		_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrsqlite3"
 //	)
 //
 //	func main() {
@@ -67,8 +68,8 @@
 //	ctx := newrelic.NewContext(context.Background(), txn)
 //	row := db.QueryRowContext(ctx, "SELECT count(*) from tables")
 //
-// A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/v3/integrations/nrsqlite3/example/main.go
+// A workingithub.com/edwardofclt/newrelic-go-agent
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/v3/integrations/nrsqlite3/example/main.go
 package nrsqlite3
 
 import (
@@ -77,10 +78,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic/sqlparse"
 	sqlite3 "github.com/mattn/go-sqlite3"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
 )
 
 var (

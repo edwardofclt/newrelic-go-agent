@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	redis "github.com/go-redis/redis/v8"
-	nrredis "github.com/newrelic/go-agent/v3/integrations/nrredis-v8"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	nrredis "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrredis-v8"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
+	redis "gitgithub.com/edwardofclt/newrelic-go-agent
 )
 
 func main() {

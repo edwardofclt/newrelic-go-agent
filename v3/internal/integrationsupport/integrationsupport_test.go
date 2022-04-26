@@ -7,8 +7,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 )
 
 func TestNilTransaction(t *testing.T) {

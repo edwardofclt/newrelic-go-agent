@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/logger"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/logger"
 )
 
 func TestCollectorResponseCodeError(t *testing.T) {

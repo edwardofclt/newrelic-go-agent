@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal/crossagent"
-	"github.com/newrelic/go-agent/v3/internal/logger"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/crossagent"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/logger"
 )
 
 func TestJSONMarshalling(t *testing.T) {

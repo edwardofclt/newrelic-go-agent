@@ -10,10 +10,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/micro/go-micro"
-	"github.com/newrelic/go-agent/v3/integrations/nrmicro"
-	proto "github.com/newrelic/go-agent/v3/integrations/nrmicro/example/proto"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrmicro"
+	proto "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrmicro/example/proto"
+	newreligithub.com/edwardofclt/newrelic-go-agentwrelic-go-agent/v3/newrelic"
+	"github.cogithub.com/edwardofclt/newrelic-go-agent
 )
 
 func subEv(ctx context.Context, msg *proto.HelloRequest) error {

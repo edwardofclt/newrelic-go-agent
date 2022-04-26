@@ -9,10 +9,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 	"github.com/graphql-go/graphql"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	"github.com/newrelic/go-agent/v3/newrelic"
 )
 
 var schema = func() graphql.Schema {

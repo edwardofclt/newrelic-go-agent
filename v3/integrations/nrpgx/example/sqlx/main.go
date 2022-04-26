@@ -39,7 +39,7 @@
 //
 //	import (
 //		"github.com/jmoiron/sqlx"
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrpgx"
+//		_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrpgx"
 //	)
 //
 //	func main() {
@@ -48,9 +48,9 @@
 //
 // If you are not using one of the supported database drivers, use the
 // `InstrumentSQLDriver`
-// (https://godoc.org/github.com/newrelic/go-agent#InstrumentSQLDriver) API.
+// (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent#InstrumentSQLDriver) API.
 // See
-// https://github.com/newrelic/go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
+// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
 // for a full example.
 //
 // Add context to your database calls
@@ -74,9 +74,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/jmoiron/sqlx"
-	_ "github.com/newrelic/go-agent/v3/integrations/nrpgx"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrpgx"
+	newgithub.com/edwardofclt/newrelic-go-agentt/newrelic-go-agent/v3/newrelic"
+	"github.cogithub.com/edwardofclt/newrelic-go-agent
 )
 
 var schema = `

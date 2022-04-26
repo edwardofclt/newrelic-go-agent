@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gin-gonic/gin"
-	nrgin "github.com/newrelic/go-agent/v3/integrations/nrgin"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	nrgin "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrgin"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent
 )
 
 func makeGinEndpoint(s string) func(*gin.Context) {

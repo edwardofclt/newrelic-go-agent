@@ -1,6 +1,7 @@
 // Copyright 2021 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 // Package nrpgx instruments https://github.com/jackc/pgx/v4.
@@ -29,7 +30,7 @@
 //	import (
 //      "database/sql"
 //
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrpgx"
+//		_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrpgx"
 //	)
 //
 //	func main() {
@@ -49,8 +50,8 @@
 //	ctx := newrelic.NewContext(context.Background(), txn)
 //	row := db.QueryRowContext(ctx, "SELECT count(*) FROM pg_catalog.pg_tables")
 //
-// A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/v3/integrations/nrpgx/example/sql_compat/main.go
+// A workingithub.com/edwardofclt/newrelic-go-agent
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/v3/integrations/nrpgx/example/sql_compat/main.go
 //
 //
 // USING WITH DIRECT PGX CALLS WITHOUT DATABASE/SQL
@@ -67,11 +68,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jackc/pgx"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic/sqlparse"
+	"github.com/edwardofclt/newrelic-go-agent
 	"github.com/jackc/pgx/v4/stdlib"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
 )
 
 var (

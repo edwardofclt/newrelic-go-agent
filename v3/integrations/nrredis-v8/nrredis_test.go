@@ -8,10 +8,10 @@ import (
 	"net"
 	"testing"
 
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
+	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 	redis "github.com/go-redis/redis/v8"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
 )
 
 func emptyDialer(context.Context, string, string) (net.Conn, error) {

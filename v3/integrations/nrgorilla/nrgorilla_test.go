@@ -9,10 +9,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
+	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 	"github.com/gorilla/mux"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
 )
 
 func makeHandler(text string) http.Handler {

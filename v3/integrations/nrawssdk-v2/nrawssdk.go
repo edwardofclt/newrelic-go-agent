@@ -33,8 +33,8 @@ import (
 	awsmiddle "github.com/aws/aws-sdk-go-v2/aws/middleware"
 	smithymiddle "github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 )
 
 type nrMiddleware struct {

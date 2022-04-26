@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 package newrelic
@@ -14,7 +15,7 @@ import (
 // SQLDriverSegmentBuilder populates DatastoreSegments for sql.Driver
 // instrumentation.  Use this to instrument a database that is not supported by
 // an existing integration package (nrmysql, nrpq, and nrsqlite3). See
-// https://github.com/newrelic/go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
 // for example use.
 type SQLDriverSegmentBuilder struct {
 	BaseSegment DatastoreSegment
@@ -25,8 +26,8 @@ type SQLDriverSegmentBuilder struct {
 // InstrumentSQLDriver wraps a driver.Driver, adding instrumentation for exec
 // and query calls made with a transaction-containing context.  Use this to
 // instrument a database driver that is not supported by an existing integration
-// package (nrmysql, nrpq, and nrsqlite3). See
-// https://github.com/newrelic/go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
+// package github.com/edwardofclt/newrelic-go-agent3). See
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
 // for example use.
 func InstrumentSQLDriver(d driver.Driver, bld SQLDriverSegmentBuilder) driver.Driver {
 	return optionalMethodsDriver(&wrapDriver{bld: bld, original: d})
@@ -35,8 +36,8 @@ func InstrumentSQLDriver(d driver.Driver, bld SQLDriverSegmentBuilder) driver.Dr
 // InstrumentSQLConnector wraps a driver.Connector, adding instrumentation for
 // exec and query calls made with a transaction-containing context.  Use this to
 // instrument a database connector that is not supported by an existing
-// integration package (nrmysql, nrpq, and nrsqlite3). See
-// https://github.com/newrelic/go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
+// integratgithub.com/edwardofclt/newrelic-go-agentand nrsqlite3). See
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
 // for example use.
 func InstrumentSQLConnector(connector driver.Connector, bld SQLDriverSegmentBuilder) driver.Connector {
 	return &wrapConnector{original: connector, bld: bld}

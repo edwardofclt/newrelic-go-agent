@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
+	nrredis "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrredis-v8"
+	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 	redis "github.com/go-redis/redis/v8"
-	nrredis "github.com/newrelic/go-agent/v3/integrations/nrredis-v8"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
 )
 
 func getTransaction() *newrelic.Transaction { return nil }

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrgorilla"
+	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
 	"github.com/gorilla/mux"
-	"github.com/newrelic/go-agent/v3/integrations/nrgorilla"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
 )
 
 func makeHandler(text string) http.Handler {

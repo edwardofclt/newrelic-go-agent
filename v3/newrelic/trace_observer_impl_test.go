@@ -1,7 +1,9 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.9
 // +build go1.9
+
 // This build tag is necessary because Infinite Tracing is only supported for Go version 1.9 and up
 
 package newrelic
@@ -20,10 +22,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/test/bufconn"
-
-	"github.com/newrelic/go-agent/v3/internal"
-	v1 "github.com/newrelic/go-agent/v3/internal/com_newrelic_trace_v1"
-	"github.com/newrelic/go-agent/v3/internal/logger"
+github.com/edwardofclt/newrelic-go-agent
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+	v1 "github.com/edwardofclt/newrelic-go-agent/v3/internal/com_newrelic_trace_v1"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/logger"
 )
 
 // This file contains helper functions for Trace Observer tests

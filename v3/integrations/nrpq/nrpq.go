@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 // Package nrpq instruments https://github.com/lib/pq.
@@ -23,7 +24,7 @@
 // Then change the side-effect import to this package, and open "nrpostgres" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrpq"
+//		_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrpq"
 //	)
 //
 //	func main() {
@@ -50,8 +51,8 @@
 // does not have ExecContext and QueryContext methods (as of June 2019, see
 // https://github.com/lib/pq/pull/768).
 //
-// A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/v3/integrations/nrpq/example/main.go
+// A workingithub.com/edwardofclt/newrelic-go-agent
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/v3/integrations/nrpq/example/main.go
 package nrpq
 
 import (
@@ -62,10 +63,10 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic/sqlparse"
 	"github.com/lib/pq"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
 )
 
 var (

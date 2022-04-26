@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 // Package nrsnowflake instruments github.com/snowflakedb/gosnowflake
@@ -23,7 +24,7 @@
 // Then change the side-effect import to this package, and open "nrsnowflake" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrsnowflake"
+//		_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrsnowflake"
 //	)
 //
 //	func main() {
@@ -43,17 +44,17 @@
 //	ctx := newrelic.NewContext(context.Background(), txn)
 //	row := db.QueryRowContext(ctx, "SELECT count(*) from tables")
 //
-// A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/v3/integrations/nrsnowflake/example/main.go
+// A workingithub.com/edwardofclt/newrelic-go-agent
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/v3/integrations/nrsnowflake/example/main.go
 package nrsnowflake
 
 import (
 	"database/sql"
 	"strconv"
-
-	"github.com/newrelic/go-agent/v3/internal"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
+github.com/edwardofclt/newrelic-go-agent
+	"github.cogithub.com/edwardofclt/newrelic-go-agentent/v3/internal"
+	ngithub.com/edwardofclt/newrelic-go-agentclt/newrelic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic/sqlparse"
 	"github.com/snowflakedb/gosnowflake"
 )
 
