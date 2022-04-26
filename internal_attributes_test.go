@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
 )
 
 func TestAddAttributeHighSecurity(t *testing.T) {

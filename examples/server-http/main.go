@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	newrelic "github.com/newrelic/go-agent"
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
 )
 
 type handler struct {

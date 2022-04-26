@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.7
 // +build go1.7
 
 package newrelic
@@ -9,7 +10,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
 )
 
 func TestWrapHandlerContext(t *testing.T) {

@@ -9,10 +9,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/integrationsupport"
 	"github.com/julienschmidt/httprouter"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
 )
 
 func TestMethodFunctions(t *testing.T) {

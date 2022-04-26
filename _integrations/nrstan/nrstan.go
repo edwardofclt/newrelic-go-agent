@@ -4,10 +4,10 @@
 package nrstan
 
 import (
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/integrationsupport"
 	stan "github.com/nats-io/stan.go"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
 )
 
 // StreamingSubWrapper can be used to wrap the function for STREAMING stan.Subscribe and stan.QueueSubscribe

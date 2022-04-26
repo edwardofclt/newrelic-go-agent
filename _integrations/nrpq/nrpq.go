@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 // Package nrpq instruments https://github.com/lib/pq.
@@ -23,7 +24,7 @@
 // Then change the side-effect import to this package, and open "nrpostgres" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/_integrations/nrpq"
+//		_ "github.com/edwardofclt/newrelic-go-agent/_integrations/nrpq"
 //	)
 //
 //	func main() {
@@ -51,7 +52,7 @@
 // https://github.com/lib/pq/pull/768).
 //
 // A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/_integrations/nrpq/example/main.go
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/_integrations/nrpq/example/main.go
 package nrpq
 
 import (
@@ -62,10 +63,10 @@ import (
 	"regexp"
 	"strings"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/sqlparse"
 	"github.com/lib/pq"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/sqlparse"
 )
 
 var (

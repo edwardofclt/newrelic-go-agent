@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/_integrations/nrnats"
 	"github.com/nats-io/nats.go"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/_integrations/nrnats"
 )
 
 var app newrelic.Application

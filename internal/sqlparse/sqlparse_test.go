@@ -6,8 +6,8 @@ package sqlparse
 import (
 	"testing"
 
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal/crossagent"
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal/crossagent"
 )
 
 type sqlTestcase struct {

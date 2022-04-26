@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"
-	newrelic "github.com/newrelic/go-agent"
 )
 
 func currentTransaction() newrelic.Transaction { return nil }

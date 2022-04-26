@@ -8,11 +8,11 @@ import (
 	"sync"
 	"testing"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/integrationsupport"
 	"github.com/nats-io/nats-streaming-server/server"
 	"github.com/nats-io/stan.go"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
 )
 
 const (

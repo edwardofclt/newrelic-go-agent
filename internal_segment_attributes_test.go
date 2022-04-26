@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
 )
 
 func TestTraceSegments(t *testing.T) {

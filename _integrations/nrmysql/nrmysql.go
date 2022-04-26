@@ -1,6 +1,7 @@
 // Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build go1.10
 // +build go1.10
 
 // Package nrmysql instruments https://github.com/go-sql-driver/mysql.
@@ -23,7 +24,7 @@
 // Then change the side-effect import to this package, and open "nrmysql" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/_integrations/nrmysql"
+//		_ "github.com/edwardofclt/newrelic-go-agent/_integrations/nrmysql"
 //	)
 //
 //	func main() {
@@ -44,17 +45,17 @@
 //	row := db.QueryRowContext(ctx, "SELECT count(*) from tables")
 //
 // A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/_integrations/nrmysql/example/main.go
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/_integrations/nrmysql/example/main.go
 package nrmysql
 
 import (
 	"database/sql"
 	"net"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/sqlparse"
 	"github.com/go-sql-driver/mysql"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/sqlparse"
 )
 
 var (

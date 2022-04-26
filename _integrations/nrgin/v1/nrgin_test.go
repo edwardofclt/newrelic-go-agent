@@ -9,14 +9,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/integrationsupport"
 	"github.com/gin-gonic/gin"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
 )
 
 var (
-	pkg = "github.com/newrelic/go-agent/_integrations/nrgin/v1"
+	pkg = "github.com/edwardofclt/newrelic-go-agent/_integrations/nrgin/v1"
 )
 
 func hello(c *gin.Context) {

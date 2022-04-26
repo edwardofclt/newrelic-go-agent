@@ -4,9 +4,9 @@
 package nrlogxi_test
 
 import (
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	nrlogxi "github.com/edwardofclt/newrelic-go-agent/_integrations/nrlogxi/v1"
 	log "github.com/mgutz/logxi/v1"
-	newrelic "github.com/newrelic/go-agent"
-	nrlogxi "github.com/newrelic/go-agent/_integrations/nrlogxi/v1"
 )
 
 func Example() {

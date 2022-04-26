@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
 )
 
 func TestSpanEventSuccess(t *testing.T) {

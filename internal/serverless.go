@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/newrelic/go-agent/internal/logger"
+	"github.com/edwardofclt/newrelic-go-agent/internal/logger"
 )
 
 const (

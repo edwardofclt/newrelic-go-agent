@@ -10,10 +10,10 @@ import (
 	"os"
 	"time"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	"github.com/edwardofclt/newrelic-go-agent/_integrations/nrmicro"
+	proto "github.com/edwardofclt/newrelic-go-agent/_integrations/nrmicro/example/proto"
 	"github.com/micro/go-micro"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/_integrations/nrmicro"
-	proto "github.com/newrelic/go-agent/_integrations/nrmicro/example/proto"
 )
 
 func mustGetEnv(key string) string {

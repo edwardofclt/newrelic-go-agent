@@ -10,6 +10,10 @@ import (
 	"testing"
 	"time"
 
+	newrelic "github.com/edwardofclt/newrelic-go-agent"
+	proto "github.com/edwardofclt/newrelic-go-agent/_integrations/nrmicro/example/proto"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/integrationsupport"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/broker"
 	bmemory "github.com/micro/go-micro/broker/memory"
@@ -19,10 +23,6 @@ import (
 	"github.com/micro/go-micro/metadata"
 	rmemory "github.com/micro/go-micro/registry/memory"
 	"github.com/micro/go-micro/server"
-	newrelic "github.com/newrelic/go-agent"
-	proto "github.com/newrelic/go-agent/_integrations/nrmicro/example/proto"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
 )
 
 const (

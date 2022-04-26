@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/crossagent"
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/crossagent"
 )
 
 type PayloadTest struct {

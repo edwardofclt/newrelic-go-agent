@@ -9,9 +9,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/edwardofclt/newrelic-go-agent/internal"
+	"github.com/edwardofclt/newrelic-go-agent/internal/integrationsupport"
 	"github.com/labstack/echo"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
 )
 
 func TestBasicRoute(t *testing.T) {
