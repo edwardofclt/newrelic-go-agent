@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	"github.com/julienschmidt/httprouter"
 )
 

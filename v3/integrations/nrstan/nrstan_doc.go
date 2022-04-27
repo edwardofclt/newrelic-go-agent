@@ -40,9 +40,9 @@
 //	seg.End()
 //
 // Full Publisher/Subscriber example:
-// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/blob/master/v3/integrations/nrstan/examples/main.go
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrstan/examples/main.go
 package nrstan
 
-import "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+import "github.com/edwardofclt/newrelic-go-agent/v3/internal"
 
 func init() { internal.TrackUsage("integration", "framework", "stan") }

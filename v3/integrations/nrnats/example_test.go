@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrnats"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	"github.com/nats-io/nats.go"
 )
 

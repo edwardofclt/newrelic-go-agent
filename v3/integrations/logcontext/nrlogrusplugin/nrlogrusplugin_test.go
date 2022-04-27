@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/sysinfo"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/sysinfo"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	"github.com/sirupsen/logrus"
 )
 

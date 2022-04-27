@@ -14,14 +14,14 @@
 // Please note that you must also instrument your web request handlers
 // and put the transaction into the context object in order to
 // utilize this instrumentation. For example, you could use
-// newrelic.WrapHandle (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic#WrapHandle)
-// or newrelic.WrapHandleFunc (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic#WrapHandleFunc)
+// newrelic.WrapHandle (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/v3/newrelic#WrapHandle)
+// or newrelic.WrapHandleFunc (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/v3/newrelic#WrapHandleFunc)
 // or you could use a New Relic integration for the web framework you are using
 // if it is available (for example,
-// https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/integrations/nrgorilla)
+// https://godoc.org/github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrgorilla)
 //
 // For a complete example, including instrumenting a graphql-go-handler, see:
-// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/tree/master/v3/integrations/nrgraphqlgo/example/main.go
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/v3/integrations/nrgraphqlgo/example/main.go
 package nrgraphqlgo
 
 import (

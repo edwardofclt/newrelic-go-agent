@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/crossagent"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/crossagent"
 )
 
 func TestSlowQueryBasic(t *testing.T) {

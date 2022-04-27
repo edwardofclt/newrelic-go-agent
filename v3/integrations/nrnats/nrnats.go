@@ -7,16 +7,16 @@ import (
 	"strings"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	nats "github.com/nats-io/nats.go"
 )
 
 // StartPublishSegment creates and starts a `newrelic.MessageProducerSegment`
-// (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent#MessageProducerSegment) for NATS
+// (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/#MessageProducerSegment) for NATS
 // publishers.  Call this function before calling any method that publishes or
 // responds to a NATS message.  Call `End()`
-// (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent#MessageProducerSegment.End) on the
+// (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/#MessageProducerSegment.End) on the
 // returned newrelic.MessageProducerSegment when the publish is complete.  The
 // `newrelic.Transaction` and `nats.Conn` parameters are required.  The subject
 // parameter is the subject of the publish call and is used in metric and span

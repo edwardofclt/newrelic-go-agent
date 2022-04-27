@@ -45,16 +45,16 @@
 //	row := db.QueryRowContext(ctx, "SELECT count(*) from tables")
 //
 // A working example is shown here:
-// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/tree/master/v3/integrations/nrmysql/example/main.go
+// https://github.com/edwardofclt/newrelic-go-agent/tree/master/v3/integrations/nrmysql/example/main.go
 package nrmysql
 
 import (
 	"database/sql"
 	"net"
 
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic/sqlparse"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic/sqlparse"
 	"github.com/go-sql-driver/mysql"
 )
 

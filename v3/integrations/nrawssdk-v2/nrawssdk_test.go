@@ -18,8 +18,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/lambda"
 	"github.com/aws/aws-sdk-go-v2/service/lambda/types"
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 func testApp() integrationsupport.ExpectApp {

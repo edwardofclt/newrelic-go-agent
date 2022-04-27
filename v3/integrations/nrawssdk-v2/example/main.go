@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	nraws "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrawssdk-v2"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 func main() {

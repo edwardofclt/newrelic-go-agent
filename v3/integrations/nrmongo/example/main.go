@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrmongo"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

@@ -14,7 +14,7 @@ import (
 	handler "github.com/graphql-go/graphql-go-handler"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrgraphqlgo"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 var schema = func() graphql.Schema {

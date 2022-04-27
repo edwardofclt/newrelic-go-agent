@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrstan"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	"github.com/nats-io/nats-streaming-server/server"
 	stan "github.com/nats-io/stan.go"
 )

@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrb3"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 func currentTxn() *newrelic.Transaction {

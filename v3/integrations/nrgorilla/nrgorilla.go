@@ -91,7 +91,7 @@ func InstrumentRoutes(r *mux.Router, app *newrelic.Application) *mux.Router {
 // Note that mux.MiddlewareFuncs are not called for the NotFoundHandler or
 // MethodNotAllowedHandler.  To instrument these handlers, use
 // newrelic.WrapHandle
-// (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic#WrapHandle).
+// (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/v3/newrelic#WrapHandle).
 //
 // Note that if you are moving from the now deprecated InstrumentRoutes to this
 // Middleware, the reported time of your transactions may increase.  This is

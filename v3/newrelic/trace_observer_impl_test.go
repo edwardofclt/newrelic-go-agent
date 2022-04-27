@@ -23,7 +23,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/test/bufconn"
 github.com/edwardofclt/newrelic-go-agent
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
 	v1 "github.com/edwardofclt/newrelic-go-agent/v3/internal/com_newrelic_trace_v1"
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal/logger"
 )

@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/cat"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/cat"
 )
 
 // This collection of top-level tests affirms, for all possible combinations of

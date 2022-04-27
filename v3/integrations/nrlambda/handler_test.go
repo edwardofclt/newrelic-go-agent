@@ -17,7 +17,7 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambdacontext"
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 func testApp(getenv func(string) string, t *testing.T) *newrelic.Application {

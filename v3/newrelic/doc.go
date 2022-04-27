@@ -7,6 +7,6 @@
 //
 // https://github.com/edwardofclt/newrelic-go-agent/blob/master/GETTING_STARTED.md
 //
-// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/blob/master/GUIDE.md
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/GUIDE.md
 //
 package newrelic

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	_ "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrpq"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 func main() {

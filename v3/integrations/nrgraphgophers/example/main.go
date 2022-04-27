@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrgraphgophers"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	graphql "github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 )

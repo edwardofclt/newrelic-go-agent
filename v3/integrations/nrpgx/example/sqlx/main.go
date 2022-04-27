@@ -48,9 +48,9 @@
 //
 // If you are not using one of the supported database drivers, use the
 // `InstrumentSQLDriver`
-// (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent#InstrumentSQLDriver) API.
+// (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/#InstrumentSQLDriver) API.
 // See
-// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrmysql/nrmysql.go
 // for a full example.
 //
 // Add context to your database calls

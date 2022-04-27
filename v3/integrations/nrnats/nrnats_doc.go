@@ -61,6 +61,6 @@
 // https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrnats/examples/main.go
 package nrnats
 
-import "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+import "github.com/edwardofclt/newrelic-go-agent/v3/internal"
 
 func init() { internal.TrackUsage("integration", "framework", "nats") }

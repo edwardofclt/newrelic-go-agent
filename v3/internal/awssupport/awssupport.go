@@ -12,7 +12,7 @@ import (
 	"reflect"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 )
 
 type contextKeyType struct{}

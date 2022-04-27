@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/cat"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/logger"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/cat"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/logger"
 )
 
 func float64Ptr(f float64) *float64 { return &f }

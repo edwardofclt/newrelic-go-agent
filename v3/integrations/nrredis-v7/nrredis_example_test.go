@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	nrredis "github.com/edwardofclt/newrelic-go-agent/v3/integrations/nrredis-v7"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	redis "github.com/go-redis/redis/v7"
 )
 

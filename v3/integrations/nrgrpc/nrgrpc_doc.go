@@ -103,9 +103,9 @@
 //	msg, err := client.handler(ctx, &pb.Message{"Hello World"})
 //
 // Full client example:
-// https://github.com/edwardofclt/newrelic-go-agentlic-go-agent/blob/master/v3/integrations/nrgrpc/example/client/client.go
+// https://github.com/edwardofclt/newrelic-go-agent/blob/master/v3/integrations/nrgrpc/example/client/client.go
 package nrgrpc
 
-import "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
+import "github.com/edwardofclt/newrelic-go-agent/v3/internal"
 
 func init() { internal.TrackUsage("integration", "framework", "grpc") }

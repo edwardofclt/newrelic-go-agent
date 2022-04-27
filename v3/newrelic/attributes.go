@@ -89,7 +89,7 @@ const (
 //
 // When not using a supported instrumentation package, you can add these
 // attributes manually using the Transaction.AddAttribute
-// (https://godoc.org/github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic#Transaction.AddAttribute)
+// (https://godoc.org/github.com/edwardofclt/newrelic-go-agent/v3/newrelic#Transaction.AddAttribute)
 // API.  In this case, these attributes will be included on all destintations
 // by default.
 //

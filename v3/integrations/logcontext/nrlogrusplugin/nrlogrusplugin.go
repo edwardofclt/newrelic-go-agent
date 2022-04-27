@@ -74,10 +74,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/integrations/logcontext"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal"
-	"github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/internal/jsonx"
-	newrelic "github.com/edwardofclt/newrelic-go-agentlic-go-agent/v3/newrelic"
+	"github.com/edwardofclt/newrelic-go-agent/v3/integrations/logcontext"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
+	"github.com/edwardofclt/newrelic-go-agent/v3/internal/jsonx"
+	newrelic "github.com/edwardofclt/newrelic-go-agent/v3/newrelic"
 	"github.com/sirupsen/logrus"
 )
 
