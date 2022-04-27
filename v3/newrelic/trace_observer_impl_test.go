@@ -19,13 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/test/bufconn"
-github.com/edwardofclt/newrelic-go-agent
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal"
 	v1 "github.com/edwardofclt/newrelic-go-agent/v3/internal/com_newrelic_trace_v1"
 	"github.com/edwardofclt/newrelic-go-agent/v3/internal/logger"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
+	"google.golang.org/grpc/test/bufconn"
 )
 
 // This file contains helper functions for Trace Observer tests

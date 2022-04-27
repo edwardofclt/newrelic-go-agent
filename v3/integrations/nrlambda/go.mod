@@ -6,5 +6,5 @@ go 1.12
 
 require (
 	github.com/aws/aws-lambda-go v1.31.1
-	github.com/edwardofclt/newrelic-go-agent/v3 v3.16.1
+	github.com/edwardofclt/newrelic-go-agent/v3 v3.16.3
 )
